@@ -5,14 +5,36 @@
       "author": "Jez Humble",
       "info": "https://martinfowler.com/bliki/FrequencyReducesDifficulty.html",
       "votes": 0,
-      "id": 1
+      "id": "1"
     },
     {
       "content": "Premature optimization is the root of all evil",
       "author": "Donald Knuth",
       "info": "http://wiki.c2.com/?PrematureOptimization",
       "votes": 0,
-      "id": 2
+      "id": "2"
+    },
+    {
+      "content": "an anecdote created by playwright 1789577192754",
+      "author": "Playwright",
+      "info": "https://playwright.dev",
+      "votes": 0,
+      "id": "6T_KgDUyDJQ"
+    },
+    {
+      "content": "an anecdote created by playwright 1789577416942",
+      "author": "Playwright",
+      "info": "https://playwright.dev",
+      "votes": 0,
+      "id": "WXQpmZNVVl4"
+    },
+    {
+      "content": "an anecdote created by playwright 1789577652257",
+      "author": "Playwright",
+      "info": "https://playwright.dev",
+      "votes": 0,
+      "id": "zDe6ChxSwTI"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
