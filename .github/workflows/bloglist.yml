@@ -33,6 +33,10 @@ jobs:
 
       - name: Run Playwright tests
         working-directory: bloglist-tests
+        env:
+          MONGODB_URI: ${{ secrets.TEST_MONGODB_URI }}
+          SECRET: testsecret
+          PORT: 3001
         run: npx playwright test
 
       - name: Upload Playwright report
