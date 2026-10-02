@@ -13,10 +13,14 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 20
 
-      - name: Install app dependencies
-        working-directory: bloglist
+      - name: Install server dependencies
+        working-directory: bloglist/server
+        run: npm ci
+
+      - name: Install client dependencies
+        working-directory: bloglist/client
         run: npm ci
 
       - name: Install test dependencies
